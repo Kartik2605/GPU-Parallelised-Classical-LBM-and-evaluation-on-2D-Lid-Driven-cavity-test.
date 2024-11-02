@@ -11,7 +11,7 @@ Initially, a serial implementation of the model is developed, and its results ar
 <div align="center">
     <img src="figures/Convergence.png" alt="Alt text for image" width="300"/>
 </div>
-<p align="center">Convergence</p>
+<p align="center">Figure1 - Convergence</p>
 
 Figure 2 and Figure 3 depict the velocity profiles for horizontal and vertical velocities plotted using the software ParaView, respectively, which were compared against the results obtained from Direct Numerical Simulation (DNS). 
 
@@ -28,7 +28,7 @@ Figure 2 and Figure 3 depict the velocity profiles for horizontal and vertical v
 In order to verify the consistency of results between the parallel and serial implementations, the velocities at x = 0.1 and y = 0.1 were plotted and compared. These comparisons are illustrated in Figure 4 and Figure 5. 
 
 <div align="center">
-    <img src="figures/x_01_compariosion.png" alt="Alt text for image" width="300"/>
+    <img src="figures/x_01_comparision.png" alt="Alt text for image" width="300"/>
 </div>
 <p align="center">Figure 4</p>
 
