@@ -9,31 +9,31 @@ Two main blocks of parallelism are utilized: the first block handles memory allo
 Initially, a serial implementation of the model is developed, and its results are validated against benchmark Direct Numerical Simulation (DNS) results [1], utilizing a Reynolds number of 1000. The convergence behavior for a lattice grid size of 100x100 is illustrated in Figure 1. 
 
 <div align="center">
-    <img src="Convergence.png" alt="Alt text for image" width="300"/>
+    <img src="images/Convergence.png" alt="Alt text for image" width="300"/>
 </div>
 <p align="center">Convergence</p>
 
 Figure 2 and Figure 3 depict the velocity profiles for horizontal and vertical velocities plotted using the software ParaView, respectively, which were compared against the results obtained from Direct Numerical Simulation (DNS). 
 
 <div align="center">
-    <img src="Vx_contour.png" alt="Alt text for image" width="300"/>
+    <img src="images/Vx_contour.png" alt="Alt text for image" width="300"/>
 </div>
 <p align="center">Figure 2</p>
 
 <div align="center">
-    <img src="Vy_contour.png" alt="Alt text for image" width="300"/>
+    <img src="images/Vy_contour.png" alt="Alt text for image" width="300"/>
 </div>
 <p align="center">Figure 3</p>
 
 In order to verify the consistency of results between the parallel and serial implementations, the velocities at x = 0.1 and y = 0.1 were plotted and compared. These comparisons are illustrated in Figure 4 and Figure 5. 
 
 <div align="center">
-    <img src="x_01_compariosion.png" alt="Alt text for image" width="300"/>
+    <img src="images/x_01_compariosion.png" alt="Alt text for image" width="300"/>
 </div>
 <p align="center">Figure 4</p>
 
 <div align="center">
-    <img src="y_01_comparision.png" alt="Alt text for image" width="300"/>
+    <img src="images/y_01_comparision.png" alt="Alt text for image" width="300"/>
 </div>
 <p align="center">Figure 5</p>
 
